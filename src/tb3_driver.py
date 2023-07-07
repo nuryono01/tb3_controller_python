@@ -82,7 +82,7 @@ if __name__ == '__main__':
         distance = float(input("Type your distance:"))
         isForward = bool(input("Foward?: "))#True or False
         deg_speed = float(input("Input your angular speed (degrees/sec):"))
-        angle = float(input("Type your distance (degrees):"))
+        angle = float(input("Type your angle (degrees):"))
         clockwise = bool(input("Clockwise?: "))#True or false
         move()
         rotate()
