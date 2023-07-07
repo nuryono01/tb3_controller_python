@@ -79,7 +79,7 @@ if __name__ == '__main__':
         vel_msg = Twist()
         print("Inputting Linear&Angular Drive")
         lin_speed =float(input("Input your linear speed (m/sec):"))
-        distance = float(input("Type your distance:"))
+        distance = float(input("Type your distance (m):"))
         isForward = bool(input("Foward?: "))#True or False
         deg_speed = float(input("Input your angular speed (degrees/sec):"))
         angle = float(input("Type your angle (degrees):"))
